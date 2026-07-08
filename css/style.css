@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght=0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+    color: #3e2723;
+}
+
+/* Шапка */
+.header {
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header > h1 {
+    font-size: 100px;
+    font-family: "Covered By Your Grace", cursive;
+    color: rgba(43, 24, 16, 0.75);
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+
+.main {
+    position: relative;
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 1150px;
+}
+
+
+.left, .right {
+    position: absolute;
+    top: 0;
+    width: 48%;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+
+.main > div > div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #8d6e63;
+
+    min-height: 280px;
+}
+
+.main h2 {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #4e342e;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.main p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #5d4037;
+    margin-bottom: 15px;
+}
+
+.main a {
+    display: inline-block;
+    color: #8d6e63;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+.main a:hover {
+    color: #4e342e;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+HW_07_TEXT  В рамках домашнего задания доделайте css под начатую на уроке апликацию про кофе под position-вариант html-css.
+ */
+
